@@ -30,8 +30,8 @@ Maintaining this project takes a lot of time. You can [buy me a drink](https://p
 | `en` | 🇬🇧 | English | 🟩 | |
 | `de` | 🇩🇪 | German | 🟩 | |
 | `es` | 🇪🇸 | Spanish | 🟩 | [r1p](https://github.com/r1p) |
-| `fr` | 🇫🇷 | French | 🟧 | [robink](https://github.com/robink) |
-| `it` | 🇮🇹 | Italian | 🟧 | [fmaida](https://github.com/fmaida) |
+| `fr` | 🇫🇷 | French | 🟩 | [robink](https://github.com/robink), [alsyia](https://github.com/alsyia) |
+| `it` | 🇮🇹 | Italian | 🟩 | [fmaida](https://github.com/fmaida), [undrivendev](https://github.com/undrivendev) |
 | `no` | 🇳🇴 | Norwegian | 🟧 | [arthurnoerve](https://github.com/arthurnoerve), [oisann](https://github.com/oisann), [Givemeurcookies](https://github.com/givemeurcookies) |
 | `zh` | 🇨🇳 | Chinese | 🟩 | [hao-lee](https://github.com/hao-lee), [izumiko](https://github.com/izumiko), [emperorjoker](https://github.com/emperorjoker) |
 | `id` | 🇮🇩 | Indonesian | 🟧 | [simplyeazy](https://github.com/simplyeazy) |
@@ -51,8 +51,9 @@ Maintaining this project takes a lot of time. You can [buy me a drink](https://p
 | `pl` | 🇵🇱 | Polish | 🟩 | [filipolszewski](https://github.com/filipolszewski), [MrBoombastic](https://github.com/mrboombastic) |
 | `eo` | | Esperanto | 🟧 | [ebanDev](https://github.com/ebanDev) |
 | `ga` | | Galego | 🟩 | [r1p](https://github.com/r1p) |
-| `uk` | 🇺🇦 | Ukrainian | 🟩 | [Rakanskiy](https://github.com/rakanskiy) |
+| `uk` | 🇺🇦 | Ukrainian | 🟩 | [Rakanskiy](https://github.com/rakanskiy), [krupenik](https://github.com/krupenik), [vadimkin](https://github.com/vadimkin) |
 | `ja` | 🇯🇵 | Japanese | 🟩 | [emperorjoker](https://github.com/emperorjoker) |
+| `fa` | | Farsi | 🟩 | [ItsAminZamani](https://github.com/ItsAminZamani) |
 
 ## Show subscribe / account button in navigation
 
