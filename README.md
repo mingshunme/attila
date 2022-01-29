@@ -13,7 +13,7 @@ Maintaining this project takes a lot of time. You can [buy me a drink](https://p
 ## ⭐️ Features
 
 * Responsive layout
-* Dark Mode & Theme Switch
+* Light and Dark Mode
 * Search & Popular Tags
 * Post reading progress
 * Code highlight including line numbers
@@ -76,16 +76,6 @@ Maintaining this project takes a lot of time. You can [buy me a drink](https://p
   }
 </style>
 ````
-## 🌓 Force Light/Dark Mode
-
-1. Go to __Code injection__.  
-2. Decide for `light` or `dark`.
-3. Add this to __Blog Header__:
-
-````html
-<script>localStorage.setItem('attila_theme', 'dark');</script>
-<style>.js-theme {display:none!important;}</style>
-````
 
 ## 💬 Setup [Disqus](https://disqus.com/)
 
@@ -127,4 +117,4 @@ grunt compress
 ````
 ## ⚖️ Copyright & License
 
-Copyright (C) 2015-2021 Peter Amende - Released under the [MIT License](https://github.com/zutrinken/attila/blob/master/LICENSE).
+Copyright (C) 2015-2022 Peter Amende - Released under the [MIT License](https://github.com/zutrinken/attila/blob/master/LICENSE).
