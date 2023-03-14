@@ -4,7 +4,7 @@ A content focused responsive theme for [Ghost](https://github.com/tryghost/ghost
 
 ## ♥️ Support
 
-Maintaining this project takes a lot of time. You can [buy me a drink](https://paypal.me/zutrinken) if you enjoy using Attila. Cheers 🍻
+You can [buy me a drink](https://paypal.me/zutrinken) if you enjoy using Attila. Cheers 🍻
 
 ## 📷 Screenshot
 
@@ -15,11 +15,10 @@ Maintaining this project takes a lot of time. You can [buy me a drink](https://p
 * Theme options
 * Responsive layout
 * Light and Dark Mode
-* Search & Popular Tags
+* Search support
 * Post reading progress
 * Code highlight including line numbers
-* Disqus support
-* Member menu buttons
+* Comments and Disqus (Theme option)
 * Ghost accent color
 
 ## 🌍 Localization
@@ -35,16 +34,17 @@ Maintaining this project takes a lot of time. You can [buy me a drink](https://p
 | `it` | 🇮🇹 | Italian | 🟩 | [fmaida](https://github.com/fmaida), [undrivendev](https://github.com/undrivendev) |
 | `no` | 🇳🇴 | Norwegian | 🟧 | [arthurnoerve](https://github.com/arthurnoerve), [oisann](https://github.com/oisann), [Givemeurcookies](https://github.com/givemeurcookies) |
 | `zh` | 🇨🇳 | Chinese | 🟩 | [hao-lee](https://github.com/hao-lee), [izumiko](https://github.com/izumiko), [emperorjoker](https://github.com/emperorjoker) |
+| `zh_tw` | 🇨🇳 | Chinese Traditional | 🟩 | [Petingo](https://github.com/Petingo)
 | `id` | 🇮🇩 | Indonesian | 🟧 | [simplyeazy](https://github.com/simplyeazy) |
 | `ro` | 🇷🇴 | Romanian | 🟧 | [cdorin93](https://github.com/cdorin93) |
 | `ru` | 🇷🇺 | Russian | 🟩 | [schamberg97](https://github.com/schamberg97), [atjanov](https://github.com/atjanov) |
 | `tr` | 🇹🇷 | Turkish | 🟩 | [cgrgrbz](https://github.com/cgrgrbz), [electricalgorithm](https://github.com/electricalgorithm) |
-| `sv` | 🇸🇪 | Swedish | 🟧 | [martenj77](https://github.com/martenj77) |
-| `cs` | 🇨🇿 | Czech | 🟧 | [lunakv](https://github.com/lunakv) |
+| `sv` | 🇸🇪 | Swedish | 🟩 | [martenj77](https://github.com/martenj77), [LarssonOliver](https://github.com/LarssonOliver) |
+| `cs` | 🇨🇿 | Czech | 🟩 | [lunakv](https://github.com/lunakv), [rdolezel](https://github.com/rdolezel) |
 | `pt` | 🇵🇹 | Portuguese | 🟧 | [matheusvanzan](https://github.com/matheusvanzan) |
-| `vi` | 🇻🇳 | Vietnamese | 🟧 | [JustHmmmm](https://github.com/justhmmmm) |
+| `vi` | 🇻🇳 | Vietnamese | 🟩 | [JustHmmmm](https://github.com/justhmmmm), [mastoduy](https://github.com/mastoduy) |
 | `el` | 🇬🇷 | Greek | 🟧 | [thiodordelis](https://github.com/thiodordelis) |
-| `dk` | 🇩🇰 | Danish | 🟧 | [jmayntzhusen](https://github.com/jmayntzhusen) |
+| `dk` | 🇩🇰 | Danish | 🟩 | [jmayntzhusen](https://github.com/jmayntzhusen), [tmlmt](https://github.com/tmlmt) |
 | `ar` | | Arabic | 🟧 | [pop-eax](https://github.com/pop-eax) |
 | `ca` | | Catalan | 🟧 | [arthurnoerve](https://github.com/arthurnoerve) |
 | `lt` | 🇱🇹 | Lithuanian | 🟧 | [arthurnoerve](https://github.com/arthurnoerve) |
@@ -55,11 +55,6 @@ Maintaining this project takes a lot of time. You can [buy me a drink](https://p
 | `uk` | 🇺🇦 | Ukrainian | 🟩 | [Rakanskiy](https://github.com/rakanskiy), [krupenik](https://github.com/krupenik), [vadimkin](https://github.com/vadimkin) |
 | `ja` | 🇯🇵 | Japanese | 🟩 | [emperorjoker](https://github.com/emperorjoker) |
 | `fa` | | Farsi | 🟩 | [ItsAminZamani](https://github.com/ItsAminZamani) |
-
-## Show subscribe / account button in navigation
-
-1. Go to `partials/navigation-meta.hbs`.
-2. Remove comments on line `24`and `34`.
 
 ## 🔠 Setup custom google fonts
 
@@ -78,18 +73,6 @@ Maintaining this project takes a lot of time. You can [buy me a drink](https://p
 </style>
 ````
 
-## 🔍 Setup search
-
-1. Go to __Integrations__.  
-2. Choose __Add custom integration__, name it `Search` and choose __Create__. Copy the generated Content API Key.  
-3. Go to __Code injection__.  
-4. Add this to __Site Header__:  
-````html
-<script>
-  var gh_search_key = 'API_KEY';
-  var gh_search_migration = 'v2';
-</script>
-````
 ## ⚙️ Development
 
 Install [Grunt](https://gruntjs.com/getting-started/):
